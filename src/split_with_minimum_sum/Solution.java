@@ -13,8 +13,8 @@ class Solution {
             numbers.add(s.charAt(i));
         }
         Collections.sort(numbers);
-        StringBuilder str1 = new StringBuilder("");
-        StringBuilder str2 = new StringBuilder("");
+        StringBuilder str1 = new StringBuilder();
+        StringBuilder str2 = new StringBuilder();
         for(int i = 0 ; i < numbers.size() ; i++){
             if( i%2 == 0){
                 str1.append(numbers.get(i));
